@@ -31,16 +31,20 @@ var swap = {
 
 function leetspeak(str) {
     var result = "";
-    for (var i = 0; i < str.length(); ++i) {
-        result[i] = swap[str[i]] ? swap[str[i]] : str[i];
+    for (var i = 0; i < str.length; ++i) {
+        result += str[i] in swap ? swap[str[i]] : str[i];
     }
+
     return result;
 }
+
 
 // main()
 //ELITE --> 37173
 //Code Chrysalis --> C0de C4rysa1is
 //ZEHITOMO --> 23H170m0
-print(leetspeak("ELITE"))
-print(leetspeak("Code Chrysalis"))
-print(leetspeak("ZEHITOMO"))
+// print(leetspeak("ELITE"))
+// print(leetspeak("Code Chrysalis"))
+// print(leetspeak("ZEHITOMO"))
+
+module.exports = leetspeak
