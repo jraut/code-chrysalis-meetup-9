@@ -4,4 +4,4 @@ assert(algo('Microsoft acquiring GitHub is a good thing. Here is why.') === 'mic
 
 assert(algo('Top 10 JavaScript errors from 1000+ projects (and how to avoid them') === 'top-10-javascript-errors-from-1000-projects-an-how-to-avoid-them')
 
-assert(algo('[JavaScript] Most popular books!!!'), 'javascript-most-popular-books')
+assert(algo('[JavaScript] Most popular books!!!') === 'javascript-most-popular-books')
