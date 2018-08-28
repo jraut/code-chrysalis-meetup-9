@@ -27,6 +27,10 @@ var swap = {
     j: '7',
     B: '8',
     P: '9',
+    O: '0',
+    o: '0',
+    D: '0'
+
 };
 
 function leetspeak(str) {
