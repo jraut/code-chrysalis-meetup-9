@@ -41,6 +41,6 @@ function leetspeak(str) {
 //ELITE --> 37173
 //Code Chrysalis --> C0de C4rysa1is
 //ZEHITOMO --> 23H170m0
-print(leetspeak("ELITE"))
-print(leetspeak("Code Chrysalis"))
-print(leetspeak("ZEHITOMO"))
+// print(leetspeak("ELITE"))
+// print(leetspeak("Code Chrysalis"))
+// print(leetspeak("ZEHITOMO"))
